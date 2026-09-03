@@ -1,0 +1,267 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+
+/* MENU */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* ARTIGO */
+
+article {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+article > h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+
+/* PARÁGRAFOS */
+
+p {
+    line-height: 1.6;
+}
+
+
+/* SEÇÕES */
+
+section {
+    margin-top: 35px;
+}
+
+section h2 {
+    border-bottom: 2px solid #222;
+    padding-bottom: 8px;
+}
+
+
+/* IMAGEM */
+
+section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-top: 15px;
+}
+
+
+/* CONSOLES */
+
+.consoles {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+
+/* VÍDEO */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* FORMULÁRIO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form > label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #555;
+}
+
+
+/* TEXTAREA */
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+/* OPÇÕES */
+
+.opcoes {
+    display: flex;
+    gap: 20px;
+}
+
+.opcoes label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+}
+
+.opcoes input {
+    width: auto;
+}
+
+
+/* BOTÃO */
+
+button {
+    padding: 12px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    article > h2 {
+        font-size: 24px;
+    }
+
+    .consoles {
+        flex-direction: column;
+    }
+
+    section img {
+        max-height: 250px;
+    }
+
+    .video-container {
+        padding-bottom: 56.25%;
+    }
+
+}
+
