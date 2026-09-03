@@ -11,7 +11,7 @@ body {
 }
 
 
-/* CABEÇALHO */
+
 
 header {
     background-color: #222;
@@ -44,7 +44,6 @@ nav a:hover {
 }
 
 
-/* CONTEÚDO PRINCIPAL */
 
 main {
     width: 90%;
@@ -53,7 +52,7 @@ main {
 }
 
 
-/* ARTIGO */
+
 
 article {
     background-color: white;
@@ -67,14 +66,14 @@ article > h2 {
 }
 
 
-/* PARÁGRAFOS */
+
 
 p {
     line-height: 1.6;
 }
 
 
-/* SEÇÕES */
+
 
 section {
     margin-top: 35px;
@@ -86,7 +85,7 @@ section h2 {
 }
 
 
-/* IMAGEM */
+
 
 section img {
     width: 100%;
@@ -97,7 +96,7 @@ section img {
 }
 
 
-/* CONSOLES */
+
 
 .consoles {
     display: flex;
@@ -116,7 +115,7 @@ section img {
 }
 
 
-/* VÍDEO */
+
 
 .video-container {
     position: relative;
@@ -136,7 +135,6 @@ section img {
 }
 
 
-/* FORMULÁRIO */
 
 form {
     display: flex;
@@ -163,7 +161,7 @@ textarea:focus {
 }
 
 
-/* TEXTAREA */
+
 
 textarea {
     height: 120px;
@@ -171,7 +169,7 @@ textarea {
 }
 
 
-/* OPÇÕES */
+
 
 .opcoes {
     display: flex;
@@ -190,7 +188,7 @@ textarea {
 }
 
 
-/* BOTÃO */
+
 
 button {
     padding: 12px;
@@ -206,7 +204,7 @@ button:hover {
 }
 
 
-/* RODAPÉ */
+
 
 footer {
     background-color: #222;
@@ -221,7 +219,7 @@ footer p {
 }
 
 
-/* RESPONSIVIDADE */
+
 
 @media (max-width: 600px) {
 
